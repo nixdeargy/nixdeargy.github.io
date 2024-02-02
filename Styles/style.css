@@ -1,3 +1,7 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+}
 body {
     background-color: #20242c;
     color: white;
@@ -8,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30pt;
+    font-variant: small-caps;
 }
 a:link, a:visited{
     color: white;
