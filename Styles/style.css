@@ -32,6 +32,9 @@ b {
     margin-right: 40px;
     margin-top: -10px;
     box-shadow: 15px 20px 0px #4c0907;
+    transition: margin-right, margin-top,box-shadow, 200ms;
+
+
     }
 .divskins{
     background-color: #13191c;
