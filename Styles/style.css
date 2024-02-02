@@ -59,6 +59,7 @@ b {
 
 .divskins:hover img{
     background-color: #8e180c;
+    transition: background-color 200ms;
 }
 .divskins p {
     margin: 0;
