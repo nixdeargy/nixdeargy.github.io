@@ -18,34 +18,24 @@ b {
     font-weight: bolder;
 }
 .conteudo{
-    margin-top: 60px;
-    background-color: white;
-    width: 380px;
-    height: 140px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 20px;
 }
 .divskins{
     background-color: #13191c;
-    width: 160px;
-    height: 100px;
+    width: 240px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.507);
 }
 .divskins p {
     margin: 0;
 }
-.divroleta{
-    background-color: #13191c;
-    width: 160px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
+
 ;
