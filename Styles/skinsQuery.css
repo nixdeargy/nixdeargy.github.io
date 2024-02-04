@@ -7,4 +7,11 @@
     }
 
 }
+@media screen and (max-width: 276px) {
+
+    *{
+        display: none;
+    }
+
+}
 ;
