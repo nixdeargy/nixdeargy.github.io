@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autolist</title>
+    <link rel="stylesheet" href="carliststyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carros que já Dirigi</h1>
+
+        <div class="car-list">
+            <article class="car-item">
+                <div class="car-content">
+                    <div class="car-photo">
+                        <img src="Imagens/m3mov.png" alt="BMW M3" />
+                    </div>
+                    <div class="car-text">
+                        <h2>BMW M3</h2>
+                        <p>Especificações: 2008 E92 Manual, S65 4.0L Na V8, 420cv</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="car-item">
+                <div class="car-content">
+                    <div class="car-photo">
+                        <img src="Imagens/vettemov.png" alt="Chevy Corvette" />
+                    </div>
+                    <div class="car-text">
+                        <h2>Chevy Corvette</h2>
+                        <p>Especificações: 2014 C7 Automático, LT1 6.2L Na V8, 466cv</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="car-item">
+                <div class="car-content">
+                    <div class="car-photo">
+                        <img src="Imagens/gtmov.png" alt="Mustang GT" />
+                    </div>
+                    <div class="car-text">
+                        <h2>Mustang GT</h2>
+                        <p>Especificações: 2008 S197 Manual, Modular 4.6L Na V8, 304cv</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="car-item">
+                <div class="car-content">
+                    <div class="car-photo" aria-label="Foto do Porsche 718"></div>
+                    <div class="car-text">
+                        <h2>Porsche 718</h2>
+                        <p>Especificações: 2024 982 Boxster Automático, MA2.2 2.0L Turbo Flat-4, 300cv</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="car-item">
+                <div class="car-content">
+                    <div class="car-photo" aria-label="Foto do Honda Civic"></div>
+                    <div class="car-text">
+                        <h2>Honda Civic</h2>
+                        <p>Especificações: 2012 FB2 LXL Automático, R18Z3 1.8L Na, 140cv</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <script>
+        const carItems = document.querySelectorAll('.car-item');
+
+        carItems.forEach((item) => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('pinned');
+            });
+        });
+    </script>
+</body>
+</html>
